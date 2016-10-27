@@ -1,0 +1,15 @@
+img {
+    display: inline;
+}
+html {
+    background: #BFD8BD;
+    font: 14px Papyrus, fantasy;
+    text-align: center;
+    border: 15px solid #ff8987;
+}
+img#peaceTempLeft {
+    float: left;
+}
+img#peaceTempRight {
+    float: right;
+}

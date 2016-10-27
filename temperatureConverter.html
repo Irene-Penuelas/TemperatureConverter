@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="temperatureConverterSTYLE.css">
+    <script src="temperatureConverter.js">
+
+    </script>
+
+</head>
+<body>
+    <h1>Convert Temperature Between Fahrenheit and Celsius</h1>
+    <br>
+    Click one of the buttons below to begin:
+    <br>
+    <br>
+    <form action="" method="post" class="input">
+        <input type="text"
+               placeholder="0"
+                id="inputCelsius"
+               class="inputsTemp"
+                >
+        <label id="celsiusInput">degrees celsius</label>
+        <br>
+        <input type="button"
+                value="Convert Celsius to Fahrenheit"
+                onclick="calculate('inputCelsius')"
+                class="submitButton">
+    </form>
+    <br>
+    equals
+    <br>
+    <br>
+    <form class="input" action="" method="post">
+        <input type="text"
+               placeholder="0"
+               id="inputFahrenheit"
+               class="inputsTemp">
+        <label id="fahrenheitInput">degrees fahrenheit</label>
+        <br>
+        <input type="button"
+                value="Convert Fahrenheit to Celsius"
+                class="submitButton"
+                onclick="calculate('inputFahrenheit')" >
+    </form>
+    <img src="yinyang-celcius-fahrenheit-md.png" id="peaceTempRight">
+    <img src="yinyang-celcius-fahrenheit-md.png" id="peaceTempLeft">
+</body>
+</html>
